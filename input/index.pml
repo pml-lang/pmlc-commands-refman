@@ -258,10 +258,10 @@
         [ch ( id="command_PDML_to_XML" ) [title Convert PDML to XML]
             [b Name: ][c PDML_to_XML]
 
-            [b Alternative names: ][c PML_to_XML, p2x]
+            [b Alternative name: ][c pdml2xml]
 
             [header Description]
-            [p Convert a PDML/PML file into a standalone XML file.]
+            [p Convert a PDML document into a standalone XML document.[nl]Note: This command is not suitable to convert PML documents into XML.]
 
             [header Examples]
             [input 
@@ -303,13 +303,13 @@
             ]
         ]
 
-        [ch ( id="command_create_standalone" ) [title Create Standalone PDML]
-            [b Name: ][c create_standalone]
+        [ch ( id="command_PDML_to_standalone" ) [title Create Standalone PDML]
+            [b Name: ][c PDML_to_standalone]
 
-            [b Alternative name: ][c sa]
+            [b Alternative name: ][c pdml2sa]
 
             [header Description]
-            [p Convert a PDML/PML file into a standalone PDML/PML file.]
+            [p Convert a PDML document into a standalone PDML document.[nl]Note: This command is not suitable to convert PML documents into a standalone PDML document.]
 
             [header Examples]
             [input 
@@ -385,13 +385,13 @@
             ]
         ]
 
-        [ch ( id="command_create_reference_manual" ) [title Create Reference Manual]
-            [b Name: ][c create_reference_manual]
+        [ch ( id="command_create_nodes_reference_manual" ) [title Create Nodes Reference Manual]
+            [b Name: ][c create_nodes_reference_manual]
 
-            [b Alternative name: ][c crm]
+            [b Alternative name: ][c cnrm]
 
             [header Description]
-            [p This command creates the PML reference manual.[nl]The auto-generated PML file is stored in sub-directory 'input' of the current working directory.[nl]The HTML output is stored in sub-directory 'output' of the current working directory.]
+            [p This command creates the 'PML Nodes Reference Manual'.[nl]The auto-generated PML file is stored in sub-directory 'input' of the current working directory.[nl]The HTML output is stored in sub-directory 'output' of the current working directory.]
 
             [header Examples]
             [input 
@@ -404,13 +404,13 @@
             [p This command doesn't have input parameters]
         ]
 
-        [ch ( id="command_create_commands_manual" ) [title Create Commands Manual]
-            [b Name: ][c create_commands_manual]
+        [ch ( id="command_create_commands_reference_manual" ) [title Create Commands Reference Manual]
+            [b Name: ][c create_commands_reference_manual]
 
-            [b Alternative name: ][c ccm]
+            [b Alternative name: ][c ccrm]
 
             [header Description]
-            [p This command creates the manual for PMLC's commands.[nl]The auto-generated PML file is stored in sub-directory 'input' of the current working directory.[nl]The output is stored in sub-directory 'output' of the current working directory.]
+            [p This command creates the 'PML Commands Reference Manual'.[nl]The auto-generated PML file is stored in sub-directory 'input' of the current working directory.[nl]The output is stored in sub-directory 'output' of the current working directory.]
 
             [header Examples]
             [input 
