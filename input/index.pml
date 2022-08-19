@@ -1,7 +1,7 @@
 [doc [title PMLC Commands Reference Manual]
 
     [table 
-        [tr [tc [b PML Version]][tc PMLC 3.0.0 2022-08-07]]
+        [tr [tc [b PML Version]][tc PMLC 3.0.0 2022-08-19]]
         [tr [tc [b License]][tc [link url=https://creativecommons.org/licenses/by-nd/4.0/ text="CC BY-ND 4.0"]]]
         [tr [tc [b Author and Copyright]][tc Christian Neumanns]]
         [tr [tc [b Website]][tc [link url=https://www.pml-lang.dev/]]]
@@ -235,7 +235,7 @@
             ]
 
             [header Input Parameters]
-            [p This command doesn't have input parameters]
+            [p This command has no input parameters]
         ]
 
         [ch ( id="command_version" ) [title Display PMLC's Version Number]
@@ -252,7 +252,7 @@
             ]
 
             [header Input Parameters]
-            [p This command doesn't have input parameters]
+            [p This command has no input parameters]
         ]
 
         [ch ( id="command_PDML_to_XML" ) [title Convert PDML to XML]
@@ -266,7 +266,7 @@
             [header Examples]
             [input 
                 ~~~
-                pdml p2x input/doc.pdml output/doc.xml
+                pdml pdml2xml input/doc.pdml output/doc.xml
                 ~~~
             ]
 
@@ -314,7 +314,7 @@
             [header Examples]
             [input 
                 ~~~
-                pdml sa input/book.pml output/standalone_book.pml
+                pdml pdml2sa input/book.pml output/standalone_book.pml
                 ~~~
             ]
 
@@ -401,7 +401,7 @@
             ]
 
             [header Input Parameters]
-            [p This command doesn't have input parameters]
+            [p This command has no input parameters]
         ]
 
         [ch ( id="command_create_commands_reference_manual" ) [title Create Commands Reference Manual]
@@ -420,7 +420,7 @@
             ]
 
             [header Input Parameters]
-            [p This command doesn't have input parameters]
+            [p This command has no input parameters]
         ]
 
     ]
